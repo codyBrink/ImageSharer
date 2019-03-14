@@ -1,0 +1,283 @@
+body {
+	background-color: #80000B;
+}
+
+#name {
+	background-color: #474e5d;
+	width: 165px;
+	height: 23px;
+	text-align: center;
+	color: white;
+}
+
+#avatar {
+	position: relative;
+	width: 165px;
+	height: 150px;
+	top: 20px;
+	margin-top: -20px;
+}
+
+/*div that holds the various links */
+#links {
+	position: relative;
+	top: 20px;
+	width: 175px;
+	height: 210px;
+}
+
+/*start of links */
+#editAva {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+#fileUp {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+#index {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+#pswdChg {
+	position: relative;
+	width: 165px;
+	height: 40px;
+	font-size: 14px;
+}
+#logout {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+/*end of links */
+
+/*start of icons that appeaar when the mouse
+leaves the "links" div */
+#editAva2 {
+	display: none;
+	width: 10px;
+	height: 40px;
+}
+#editAvaIcon {
+	position: relative;
+	left: -10px;
+}
+
+#fileUp2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: -5px;
+}
+#fileUpIcon {
+	position: relative;
+	left: -10px;
+}
+
+#index2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: -10px;
+}
+#indexIcon {
+	position: relative;
+	left: -10px;
+}
+
+#pswdChg2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: -15px;
+} 
+#pswdChgIcon {
+	position: relative;
+	left: -10px;
+}
+
+#logout2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: 132px;
+	top: -40px;
+	float: left;
+}
+#logoutIcon {
+	position: relative;
+	left: -10px;
+}
+/*end of icons that appear after mouseleaves */
+
+/*form and error message for the "edit avatar" link */
+#editAvaForm {
+	position: relative;
+	border: 5px white groove;
+	top: 15px;
+	left: 200px;
+	width: 300px;
+	height: 210px;
+}
+
+#avaErr {
+	color: red;
+	position: relative;
+	left: 20px;
+}
+
+#avaUpload {
+	position: relative;
+	top: 60px;
+	left: 1px;
+	width: 120px;
+}
+/*end of "edit avatar" form */
+
+/*form and error message for the "upload photo" link */
+#uploadImg {
+	position: relative;
+	border: 5px white groove;
+	width: 400px;
+	height: 300px;
+	left: 120px;
+	top: 30px;
+}
+
+#priMsg {
+	position: relative;
+	top: 60px;
+}
+#uploadErr {
+	color: red;
+	position: relative;
+	left: 20px;
+}
+
+
+/*private and public radio buttons of the "upload photo" form */
+#priLabel {
+	position: relative;
+	left: 50px;
+}
+#pri {
+	position: relative;
+	left: 60px;
+	top: 2px;
+	margin-left: 5px;
+	display: inline;
+}
+
+#pubLabel {
+	position: relative;
+	left: 5px;
+}
+#pub {
+	position: relative;
+	top: 2px;
+	left: 60px;
+	display: inline;	
+}
+
+#uploadBtn {
+	position: relative;
+	top: 15px;
+	left: 1px;
+	width: 120px;
+	display: inline;
+	color: black;
+}
+/*end of "upload photo" form */
+
+/*form for "change password" link */
+#changePass {
+	position: relative;
+	left: -10px;
+	top: 60px;
+}
+
+#chgPassErr {
+	color: red;
+	position: relative;
+	left: 270px;
+	top: 25px;
+}
+
+/*input fields and their related label */
+#curPassLab {
+	position: relative;
+	top: 30px;
+	left: 92px;
+}
+#curPass {
+	position: relative;
+	width: 300px;
+	left: 220px;
+}
+
+#newPassLab {
+	position: relative;
+	top: 30px;
+	left: 113px;
+}
+#newPass {
+	position: relative;
+	width: 301px;
+	left: 220px;
+}
+
+#conPassLab {
+	position: relative;
+	top: 30px;
+	left: 91px;
+}
+#conPass {
+	position: relative;
+	width: 303px;
+	left: 220px;
+}
+
+#chgPassBtn {
+	position: relative;
+	left: 270px;
+	width: 200px;
+	height: 40px;
+	color: black;
+}
+/*end of "change password" form */
+
+/*div that holds images */
+#profileMain {
+	position: relative;
+	background-color: #474e5d;
+	height: 400px;
+	width: 690px;
+	left: 190px;
+	top: -190px;
+	color: white;	
+	overflow-y: auto;
+}
+
+
+/*images and titles for profile.php and viewUser.php */
+#userImg {
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+	
+}
+
+#imgTitle {
+	position: relative;
+	top: 65px;
+	left: -110px;
+}

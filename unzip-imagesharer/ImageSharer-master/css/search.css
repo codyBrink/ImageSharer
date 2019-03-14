@@ -1,0 +1,69 @@
+body {
+	background-color: #80000B;
+}
+.main {
+	position: relative;
+	background-color: #474e5d;
+	height: 400px;
+	width: 610px;
+	left: 190px;
+	top: 19px;
+	color: white;	
+	overflow-y: auto;
+}
+
+/*css for the search form */
+#serFrm {
+	position: relative;
+	width: 250px;
+	left: 300px;
+	top: 30px;
+}
+#serBtn {
+	position: relative;
+	left: 240px;
+	top:-34px;
+}
+
+/* where errors are displayed */
+#serErr {
+	color: red;
+	position: relative;
+	left: 300px;
+	top: -350px;
+}
+
+/*div that the each image is placed in */
+.results {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 40px;
+	margin-bottom: 60px;
+	margin-top: 10px;
+}
+
+/* the images themselves */
+.resultImg {
+	width: 150px;
+	height: 150px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	top: -5px;
+	
+}
+
+/* title of the images */
+.resultTitle {
+	position: relative;
+	top: -60px;
+	left: 10px;	
+	
+}
+
+/*uploader of the image */
+.uploader {
+	position: relative;
+	top: -65px;
+	left: 10px;
+}

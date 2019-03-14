@@ -1,0 +1,147 @@
+body {
+	background-color: #474e5d;
+}
+/* wrapper for entire page */
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1034px;
+}
+
+  /* divs for the main sections */
+  .bg-1 {
+	  background-image:url("main.png");
+	  background-size: cover;
+	  background-position: center;
+	  color: #fff;
+  }
+  .bg-2 {
+	  background-color: #474e5d;
+	  color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  
+  /* css for the search area */
+  #serBar {
+	  width: 300px;
+	  margin-left: 310px;
+  }
+  #serBtn {
+	  margin-left: 270px;
+	  margin-top: -57px;
+  }
+  /*end of css for the search area */
+  
+  /* labels and their corresponding buttons for retrieving login and signup forms */
+  #logLabel {
+	  margin-top: -20px;
+	  margin-left: -800px;
+  }
+  #logBtn {
+	  margin-left: -800px;
+  }
+  #signLabel {
+	  margin-top: -70px;
+	  margin-left: -100px;
+  }
+  #signBtn {
+	  margin-left: -100px;
+  }
+  #contactLabel {
+	  margin-left: 600px;
+	  margin-top: -70px;
+  }
+  #contBtn {
+	  margin-left: 600px;
+  }
+  
+  /* css for errors */
+  #err {
+	  color: red;
+  }
+  
+  /* css for the login form */
+  #userLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #username {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #pswdLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #pswd {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #logInBtn {
+	  margin-left: -30px;
+  }
+  /*end of css for the login form */
+  
+  /* css for signup form */
+  #newUserLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #newUsername {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #email {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #emailLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #passLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #pass {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #conPswdLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #conPswd {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #signUpBtn {
+	  margin-top: 15px;
+	  margin-left: -30px;
+  }
+  /*end of css for sign up form */
+  
+  /* css for IF the user is logged in */
+  #userData {
+	  position: relative;
+	  height: 150px;
+	  width: 400px;
+	  left: -40px;
+  }
+  #avatar {
+	  width: 100px;
+	  height: 100px;
+	  
+  }
+  #userLab {
+	  position: relative;
+	  left: -280px;
+	  font-size: 20px;
+  }
+  
+  #bottom_2 {
+	  margin-bottom: -35px;
+  }

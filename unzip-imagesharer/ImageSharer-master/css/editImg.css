@@ -1,0 +1,75 @@
+
+body {
+	background-color: #80000B;
+}
+
+/*div that holds all the content */
+.main {
+	position: relative;
+	background-color: #474e5d;
+	height: 400px;
+	width: 690px;
+	left: 190px;
+	top: 19px;
+	color: white;	
+	overflow-y: auto;
+	
+}
+
+/*title of image */
+#header {
+	position: relative;
+	top: -70px;
+	left: -50px;
+	font-size: 20px;
+}
+
+/*the image selected */
+#img {
+	position: relative;
+	top: 50px;
+	left: 170px;
+	height:200px;
+	width:400px;
+}
+
+/*forms for deleting a photo and changing privacy settings */
+#delForm, #priChg{
+	position: relative;
+	top: 50px;
+}
+
+/*button to delete a photo */
+#delBtn {
+	position: relative;
+	top: 30px;
+	height: 30px;
+	width: 100px;
+	left: 390px;
+	color: black;
+}
+
+/*radio buttons for privacy selection */
+#rad {
+	position: relative;
+	left: 50px;
+	top: 30px;
+	color: white;
+}
+
+#priChg {
+	border: 5px white groove;
+	width: 150px;
+	height: 100px;
+	left: 170px;
+}
+#priBtn {
+	position: relative;
+	left: 30px;
+	top: 10px;
+	color: black;
+	
+}
+#id {
+	display: none;
+}

@@ -1,0 +1,53 @@
+body {
+	background-color: #80000B;
+}
+.main {
+	position: relative;
+	background-color: #474e5d;
+	height: 400px;
+	width: 690px;
+	left: 190px;
+	top: 19px;
+	color: white;	
+	overflow-y: auto;
+	
+}
+
+/*name of user */
+#name {
+	background-color: #474e5d;
+	width: 165px;
+	height: 23px;
+	text-align: center;
+	color: white;
+}
+
+/*avatar of user */
+#avatar {
+	position: relative;
+	width: 165px;
+	height: 150px;
+	top: 20px;
+	margin-top: -20px;
+}
+
+/*header for user images section */
+#phHdr {
+	text-align: center;
+}
+
+/*images taht the user has uploaded (if any) */
+#userImg {
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+	
+}
+
+/*title of each image */
+#imgTitle {
+	position: relative;
+	top: 65px;
+	left: -110px;
+}

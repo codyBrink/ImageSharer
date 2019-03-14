@@ -1,0 +1,161 @@
+body {
+	background-color: #80000B;
+}
+.main {
+	position: relative;
+	background-color: #474e5d;
+	height: 400px;
+	width: 690px;
+	left: 190px;
+	top: 19px;
+	color: white;	
+	overflow-y: auto;
+	
+}
+
+/*button to return to search.php */
+#bckSrh {
+	position: relative;
+	top: 65px;
+}
+
+/*button to allow the user to goto profile.php
+only shows IF the user is logged in */
+#profile {
+	position: relative;
+	top: 115px;
+	left: -182px;
+	width: 177px;
+}
+
+/*title of selected image */
+#titleBanner {
+	text-align: center;
+}
+
+/*the image the user selected */
+#selectedImg {
+	position: relative;
+	width: 670px;
+	height: 200px;
+	top: 40px;
+	left: 10px;
+}
+
+/*uploader of image */
+#uploader {
+	position: relative;
+	top: 70px;
+}
+/*date when image was added */
+#added {
+	position: relative;
+	top: 70px;
+	left: 100px;
+}
+
+/*div that holds the comments */
+#comments {
+	position: relative;
+	overflow-y: auto;
+	background-color:#474e5d;
+	height: 200px;
+	width: 690px;
+	left: 190px;
+	top: 40px;
+	padding-left: -10px;
+}
+
+/*avatar of logged in user */
+#loggedAva {
+	position: relative;
+	width: 70px;
+	height: 50px;
+	top: 10px;
+	left: 10px;
+}
+
+/*textarea where you write your comment */
+#comment {
+	position: relative;
+	top: 30px;
+	left: 20px;
+	width: 500px;
+	height: 52px;
+}
+
+/*button to submit comment */
+#addCmt {
+	display: inline;
+	position: relative;
+	left: 20px;
+	height: 55px;
+	width: 50px;
+	top: 12px;
+}
+
+/*divides between form for adding comment and comments themselves */
+hr {
+	padding-bottom: 20px;
+}
+
+/*name of each commenter */
+.cmtr {
+	position: relative;
+	top: -20px;
+	left: -40px;
+	color: white;
+}
+
+/*avatar of each comment */
+.cmtrAvatar {
+	position: relative;
+	width: 70px;
+	height: 50px;
+	float: left;
+}
+
+/*date of when the comment was made */
+.cmtDate {
+	position: relative;
+	color: white;
+	top: -18px;
+	left: -5px;
+	text-align: center;
+}
+
+/*the comments themselves */
+.msg {
+	position: relative;
+	top: -10px;
+	left: 15px;
+	width: 490px;
+	height: 50px;
+	color: white;
+	word-wrap: break-word;
+	overflow-y: auto;
+}
+
+/*form for deleting comments */
+.delFrm {
+	position: relative;
+}
+
+/*span that contains the comment id */
+#cmtid {
+	display: none;
+}
+
+/*input field that will submit the comment id */
+.cmtid {
+	display: none;
+}
+
+/*button to delete comment */
+.delCmt {
+	position: relative;
+	float:left;
+	top: -105px;
+	margin-left: -10px;
+	left: 10px;
+}

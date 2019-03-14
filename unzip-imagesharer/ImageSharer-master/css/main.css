@@ -1,0 +1,734 @@
+/*css that is shared among pages */
+body {
+	background-color: #80000B;
+}
+.main {
+	position: relative;
+	background-color: #474e5d;
+	height: 400px;
+	width: 690px;
+	left: 190px;
+	top: 19px;
+	color: white;	
+	overflow-y: auto;
+	
+}
+/*end of universal css*/
+
+
+/*start of css for index.php */
+#homePage {
+	background-color: #474e5d;
+}
+/* wrapper for entire page */
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1034px;
+}
+
+  /* divs for the main sections */
+  .bg-1 {
+	  background-image:url("main.png");
+	  background-size: cover;
+	  background-position: center;
+	  color: #fff;
+  }
+  .bg-2 {
+	  background-color: #474e5d;
+	  color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  
+  /* css for the search area */
+  #indexSerBar {
+	  width: 300px;
+	  margin-left: 310px;
+  }
+  #indexSerBtn {
+	  margin-left: 270px;
+	  margin-top: -57px;
+  }
+  /*end of css for the search area */
+  
+  /* labels and their corresponding buttons for retrieving login and signup forms */
+  #logLabel {
+	  margin-top: -20px;
+	  margin-left: -800px;
+  }
+  #logBtn {
+	  margin-left: -800px;
+  }
+  
+  #signLabel {
+	  margin-top: -70px;
+	  margin-left: -100px;
+  }
+  #signBtn {
+	  margin-left: -100px;
+  }
+  
+  #contactLabel {
+	  margin-left: 600px;
+	  margin-top: -70px;
+  }
+  #contBtn {
+	  margin-left: 600px;
+  }
+  
+  /* css for errors */
+  #err {
+	  color: red;
+  }
+  
+  /* css for the login form */
+  #userLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #username {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #pswdLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #pswd {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #logInBtn {
+	  margin-left: -30px;
+  }
+  /*end of css for the login form */
+  
+  /* css for signup form */
+  #newUserLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #newUsername {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #email {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #emailLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #passLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #pass {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #conPswdLabel {
+	  margin-left: -20px;
+	  font-size: 20px;
+  }
+  #conPswd {
+	  width: 400px;
+	  margin-left: 280px;
+  }
+  #signUpBtn {
+	  margin-top: 15px;
+	  margin-left: -30px;
+  }
+  /*end of css for sign up form */
+  
+  /* css for IF the user is logged in */
+  #userData {
+	  position: relative;
+	  height: 150px;
+	  width: 400px;
+	  left: -40px;
+  }
+  #userAvatar {
+	  width: 100px;
+	  height: 100px;
+	  
+  }
+  #userLab {
+	  position: relative;
+	  left: -280px;
+	  font-size: 20px;
+  }
+  
+  #bottom_2 {
+	  margin-bottom: -35px;
+  }
+/*end of index.php */
+
+
+/*start of css for search.php*/
+
+/*css for the search form */
+#serFrm {
+	position: relative;
+	width: 250px;
+	left: 300px;
+	top: 30px;
+}
+#serBtn {
+	position: relative;
+	left: 240px;
+	top:-34px;
+}
+
+/* where errors are displayed */
+#serErr {
+	color: red;
+	position: relative;
+	left: 300px;
+	top: -350px;
+}
+
+/*div that the each image is placed in */
+.results {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 40px;
+	margin-bottom: 60px;
+	margin-top: 10px;
+}
+
+/* the images themselves */
+.resultImg {
+	width: 150px;
+	height: 150px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	top: -5px;
+	
+}
+
+/* title of the images */
+.resultTitle {
+	position: relative;
+	top: -60px;
+	left: 10px;	
+	
+}
+
+/*uploader of the image */
+.uploader {
+	position: relative;
+	top: -65px;
+	left: 10px;
+}
+/*end of search.php */
+
+
+/*start of css for viewImg.php */
+
+/*button to return to search.php */
+#bckSrh {
+	position: relative;
+	top: 65px;
+}
+
+/*button to allow the user to goto profile.php
+only shows IF the user is logged in */
+#profile {
+	position: relative;
+	top: 115px;
+	left: -182px;
+	width: 177px;
+}
+
+/*title of selected image */
+#titleBanner {
+	text-align: center;
+}
+
+/*the image the user selected */
+#selectedImg {
+	position: relative;
+	width: 670px;
+	height: 200px;
+	top: 40px;
+	left: 10px;
+}
+
+/*uploader of image */
+#uploader {
+	position: relative;
+	top: 70px;
+}
+/*date when image was added */
+#added {
+	position: relative;
+	top: 70px;
+	left: 100px;
+}
+
+/*div that holds the comments */
+#comments {
+	position: relative;
+	overflow-y: auto;
+	background-color:#474e5d;
+	height: 200px;
+	width: 690px;
+	left: 190px;
+	top: 40px;
+	padding-left: -10px;
+}
+
+/*avatar of logged in user */
+#loggedAva {
+	position: relative;
+	width: 70px;
+	height: 50px;
+	top: 10px;
+	left: 10px;
+}
+
+/*textarea where you write your comment */
+#comment {
+	position: relative;
+	top: 30px;
+	left: 20px;
+	width: 500px;
+	height: 52px;
+}
+
+/*button to submit comment */
+#addCmt {
+	display: inline;
+	position: relative;
+	left: 20px;
+	height: 55px;
+	width: 50px;
+	top: 12px;
+}
+
+/*divides between form for adding comment and comments themselves */
+hr {
+	padding-bottom: 20px;
+}
+
+/*name of each commenter */
+.cmtr {
+	position: relative;
+	top: -20px;
+	left: -40px;
+	color: white;
+}
+
+/*avatar of each comment */
+.cmtrAvatar {
+	position: relative;
+	width: 70px;
+	height: 50px;
+	float: left;
+}
+
+/*date of when the comment was made */
+.cmtDate {
+	position: relative;
+	color: white;
+	top: -18px;
+	left: -5px;
+	text-align: center;
+}
+
+/*the comments themselves */
+.msg {
+	position: relative;
+	top: -10px;
+	left: 15px;
+	width: 490px;
+	height: 50px;
+	color: white;
+	word-wrap: break-word;
+	overflow-y: auto;
+}
+
+/*form for deleting comments */
+.delFrm {
+	position: relative;
+}
+
+/*span that contains the comment id */
+#cmtid {
+	display: none;
+}
+
+/*input field that will submit the comment id */
+.cmtid {
+	display: none;
+}
+
+/*button to delete comment */
+.delCmt {
+	position: relative;
+	float:left;
+	top: -105px;
+	margin-left: -10px;
+	left: 10px;
+}
+/*end of viewImg.php */
+
+/*start of css for profile.php */
+
+/* the user's name and avatar. (used for both profile.php and viewUser.php)*/
+#name {
+	background-color: #474e5d;
+	width: 165px;
+	height: 23px;
+	text-align: center;
+	color: white;
+}
+
+#avatar {
+	position: relative;
+	width: 165px;
+	height: 150px;
+	top: 20px;
+	margin-top: -20px;
+}
+
+/*div that holds the various links */
+#links {
+	position: relative;
+	top: 20px;
+	width: 175px;
+	height: 210px;
+}
+
+/*start of links */
+#editAva {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+#fileUp {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+#index {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+#pswdChg {
+	position: relative;
+	width: 165px;
+	height: 40px;
+	font-size: 14px;
+}
+#logout {
+	position: relative;
+	width: 165px;
+	height: 40px;
+}
+/*end of links */
+
+/*start of icons that appeaar when the mouse
+leaves the "links" div */
+#editAva2 {
+	display: none;
+	width: 10px;
+	height: 40px;
+}
+#editAvaIcon {
+	position: relative;
+	left: -10px;
+}
+
+#fileUp2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: -5px;
+}
+#fileUpIcon {
+	position: relative;
+	left: -10px;
+}
+
+#index2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: -10px;
+}
+#indexIcon {
+	position: relative;
+	left: -10px;
+}
+
+#pswdChg2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: -15px;
+} 
+#pswdChgIcon {
+	position: relative;
+	left: -10px;
+}
+
+#logout2 {
+	display: none;
+	position: relative;
+	width: 10px;
+	height: 40px;
+	left: 132px;
+	top: -40px;
+	float: left;
+}
+#logoutIcon {
+	position: relative;
+	left: -10px;
+}
+/*end of icons that appear after mouseleaves */
+
+/*form and error message for the "edit avatar" link */
+#editAvaForm {
+	position: relative;
+	border: 5px white groove;
+	top: 15px;
+	left: 200px;
+	width: 300px;
+	height: 210px;
+}
+
+#avaErr {
+	color: red;
+	position: relative;
+	left: 20px;
+}
+
+#avaUpload {
+	position: relative;
+	top: 60px;
+	left: 1px;
+	width: 120px;
+}
+/*end of "edit avatar" form */
+
+/*form and error message for the "upload photo" link */
+#uploadImg {
+	position: relative;
+	border: 5px white groove;
+	width: 400px;
+	height: 300px;
+	left: 120px;
+	top: 30px;
+}
+
+#priMsg {
+	position: relative;
+	top: 60px;
+}
+#uploadErr {
+	color: red;
+	position: relative;
+	left: 20px;
+}
+
+
+/*private and public radio buttons of the "upload photo" form */
+#priLabel {
+	position: relative;
+	left: 50px;
+}
+#pri {
+	position: relative;
+	left: 60px;
+	top: 2px;
+	margin-left: 5px;
+	display: inline;
+}
+
+#pubLabel {
+	position: relative;
+	left: 5px;
+}
+#pub {
+	position: relative;
+	top: 2px;
+	left: 60px;
+	display: inline;	
+}
+
+#uploadBtn {
+	position: relative;
+	top: 15px;
+	left: 1px;
+	width: 120px;
+	display: inline;
+	color: black;
+}
+/*end of "upload photo" form */
+
+/*form for "change password" link */
+#changePass {
+	position: relative;
+	left: -10px;
+	top: 60px;
+}
+
+#chgPassErr {
+	color: red;
+	position: relative;
+	left: 270px;
+	top: 25px;
+}
+
+/*input fields and their related label */
+#curPassLab {
+	position: relative;
+	top: 30px;
+	left: 92px;
+}
+#curPass {
+	position: relative;
+	width: 300px;
+	left: 220px;
+}
+
+#newPassLab {
+	position: relative;
+	top: 30px;
+	left: 113px;
+}
+#newPass {
+	position: relative;
+	width: 301px;
+	left: 220px;
+}
+
+#conPassLab {
+	position: relative;
+	top: 30px;
+	left: 91px;
+}
+#conPass {
+	position: relative;
+	width: 303px;
+	left: 220px;
+}
+
+#chgPassBtn {
+	position: relative;
+	left: 270px;
+	width: 200px;
+	height: 40px;
+	color: black;
+}
+/*end of "change password" form */
+
+/*div that holds images */
+#profileMain {
+	position: relative;
+	background-color: #474e5d;
+	height: 400px;
+	width: 690px;
+	left: 190px;
+	top: -190px;
+	color: white;	
+	overflow-y: auto;
+}
+
+
+/*images and titles for profile.php and viewUser.php */
+#userImg {
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+	
+}
+
+#imgTitle {
+	position: relative;
+	top: 65px;
+	left: -110px;
+}
+/*end of profile.php */
+
+/*start of viewUser.php */
+
+/*header for photos section */
+#phHdr {
+	text-align: center;
+}
+/*end of viewUser.php */
+
+
+/*start of editImg.php */
+
+/*title of image */
+#header {
+	position: relative;
+	top: -70px;
+	left: -50px;
+	font-size: 20px;
+}
+
+/*the image selected */
+#img {
+	position: relative;
+	top: 50px;
+	left: 170px;
+	height:200px;
+	width:400px;
+}
+
+/*forms for deleting a photo and changing privacy settings */
+#delForm, #priChg{
+	position: relative;
+	top: 50px;
+}
+
+/*button to delete a photo */
+#delBtn {
+	position: relative;
+	top: 30px;
+	height: 30px;
+	width: 100px;
+	left: 390px;
+	color: black;
+}
+
+/*radio buttons for privacy selection */
+#rad {
+	position: relative;
+	left: 50px;
+	top: 30px;
+	color: white;
+}
+
+#priChg {
+	border: 5px white groove;
+	width: 150px;
+	height: 100px;
+	left: 170px;
+}
+#priBtn {
+	position: relative;
+	left: 30px;
+	top: 10px;
+	color: black;
+	
+}
+#id {
+	display: none;
+}
+/*end of editImg.php */
